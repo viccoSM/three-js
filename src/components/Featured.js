@@ -6,7 +6,7 @@ import furniture3 from "../assets/3d/furniture3.glb";
 import furniture4 from "../assets/3d/furniture4.glb";
 
 const Featured = () => (
-  <section className='flex items-center justify-between'>
+  <section className='w-full md:w-[90%] mx-auto flex items-center justify-between'>
     <h3 className='-rotate-90 text-xl font-semibold'>Featured</h3>
     <div className="flex space-x-7">
       <div className="h-[90px] w-[128px] relative rounded-xl bg-white shadow-lg flex justify-center">
@@ -61,6 +61,7 @@ const Featured = () => (
         </div>
       </div>
     </div>
+
     <button className='bg-gray-800 p-2 rounded-full'>
       <img className='w-[30px] h-[30px]' src={arrowRight} alt=""/>
     </button>

@@ -3,7 +3,7 @@ import Canvas3D from "./Canvas3D";
 import furniture1 from '../assets/3d/furniture1.glb'
 
 const Banner = () => (
-  <section className='w-full md:w-[90%] mx-auto flex items-center justify-between'>
+  <section className='w-full md:w-[90%] mx-auto grid grid-cols-2 items-center'>
     <div className='space-y-6'>
       <div className="space-y-3 max-w-[400px]">
         <h1 className='text-3xl font-bold'>
@@ -16,7 +16,7 @@ const Banner = () => (
       </button>
     </div>
     <Canvas3D
-      className='cursor-grab '
+      className='cursor-grab'
       width={350}
       height={400}
       containerId='test'
