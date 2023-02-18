@@ -8,7 +8,7 @@ const Canvas3D = ({className, canvasId, asset3D, width= 300, height = 300, optio
     three.initialize(width, height)
     three.animate()
     three.loaderAsset({asset: asset3D, ...options})
-  }, [asset3D, width, height])
+  }, [canvasId, options, asset3D, width, height])
 
 
   return (
